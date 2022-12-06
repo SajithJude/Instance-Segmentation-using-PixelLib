@@ -23,7 +23,7 @@ segmentation_type = st.sidebar.selectbox('Select segmentation type 🎯',["Image
 st.sidebar.image(bottom_image,use_column_width='auto')
 
 st.image(main_image,use_column_width='auto')
-st.title("🖼📷 Instance Segmentator 🏡🏙")
+st.title("🖼 Instance Segmentator 🏡🏙")
 
 if segmentation_type == "Image":
     st.info('✨ Supports all popular image formats 📷 - PNG, JPG, BMP 😉')

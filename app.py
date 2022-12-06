@@ -5,7 +5,7 @@ from PIL import Image
 from app_funcs import segment_image, segment_video, segment_live_feed, download_success
 
 st.set_page_config(
-    page_title="Instance Segmentator",
+    page_title="Instance ariel image Segmentator",
     page_icon="🖼",
     layout="centered",
     initial_sidebar_state="auto",
